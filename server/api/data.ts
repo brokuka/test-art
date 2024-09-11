@@ -1,6 +1,6 @@
 export default defineEventHandler(async () => {
   const data = await $fetch('./data.json', {
-    baseURL: 'http://localhost:3000',
+    baseURL: import.meta.dev ? 'http://localhost:3000' : 'https://test-art.vercel.app/',
   })
 
   return data
