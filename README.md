@@ -1,10 +1,9 @@
-# Nuxt 3 Minimal Starter
+# ТЗ Art
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Небольшой приложение на NuxtJS где создаём хлебные крошки на базе данных.
 
-## Setup
+## Установка
 
-Make sure to install the dependencies:
 
 ```bash
 # npm
@@ -20,9 +19,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Режим разработки
 
-Start the development server on `http://localhost:3000`:
+Сервер запускается по ссылке `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,9 +37,9 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Продакшн
 
-Build the application for production:
+Сборка проекта для продакшена
 
 ```bash
 # npm
@@ -71,5 +70,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
